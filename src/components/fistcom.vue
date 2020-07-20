@@ -5,9 +5,9 @@
 </template>
 
 <script>
-  export default {
-    name: 'fistpage'
-  };
+export default {
+  name: 'fistpage',
+};
 </script>
 
 <style scoped>

@@ -7,9 +7,9 @@
 </template>
 
 <script>
-  export default {
-    name: 'firstview'
-  };
+export default {
+  name: 'firstview',
+};
 </script>
 
 <style scoped>
