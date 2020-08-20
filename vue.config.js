@@ -4,7 +4,8 @@ module.exports = {
   assetsDir: './',
   lintOnSave: true,
   devServer: {
-    host: 'localhost',
+    host: '0.0.0.0',
+    public: '192.168.5.93:8880',
     port: '8880',
     https: false,
     open: true,

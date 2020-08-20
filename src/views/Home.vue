@@ -5,7 +5,7 @@
     <!--    轮播图-->
     <Carousel></Carousel>
     <!--    中间的广告标题-->
-    <AdLable></AdLable>
+    <GLable></GLable>
   </div>
 </template>
 
@@ -14,7 +14,7 @@
   import HelloWorld from '../components/HelloWorld.vue';
   import HeaderMenu from '../components/HeaderMenu.vue';
   import Carousel from '../components/Carousel.vue';
-  import AdLable from '../components/AdLable';
+  import GLable from '../components/GLable.vue';
 
   export default {
     name: 'Home',
@@ -22,7 +22,7 @@
       HelloWorld,
       HeaderMenu,
       Carousel,
-      AdLable,
+      GLable,
     },
     data() {
       return {
@@ -42,12 +42,5 @@
 
 <style>
 
-  .el-menu-vertical-demo:not(.el-menu--collapse) {
-    width: 200px;
-    min-height: 400px;
-  }
 
-  .header {
-    padding: 0 1px;
-  }
 </style>
