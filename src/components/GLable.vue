@@ -65,8 +65,8 @@
   }
   .g_block .g_block_con{
     position: absolute;
-    width: 230px;
-    height: 90px;
+    width: 80%;
+    height: 80px;
     color: rgb(38, 38, 38);
     font-size: 23pt;
     padding-top: 26px;
@@ -76,8 +76,8 @@
     border-radius: 3%;
     box-shadow: 1px 1px 10px #c7c7c7d7;
     z-index: 2;
-    left: 14.5%;
-    top: 73%;
+    left: 9.5%;
+    top: 77%;
   }
   .g_block .g_block_con span{
     color: rgb(189, 185, 185);
