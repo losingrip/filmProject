@@ -38,17 +38,17 @@
       },
 
     },
-    mounted: function () {
-      var toolbar=document.getElementById("header")
-      window.addEventListener('scroll',()=>{
-        this.offsetTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
-        if (this.offsetTop>120){
-          toolbar.style.background="#fff"
-        }else {
-          toolbar.setAttribute("style","background:linear-gradient(top,#000,#fff)")
-        }
-      },true);
-    }
+    // mounted: function () {
+    //   var toolbar=document.getElementById("header")
+    //   window.addEventListener('scroll',()=>{
+    //     this.offsetTop = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop;
+    //     if (this.offsetTop>120){
+    //       toolbar.style.background="#fff"
+    //     }else {
+    //       toolbar.setAttribute("style","background:linear-gradient(top,#000,#fff)")
+    //     }
+    //   },true);
+    // }
   };
 </script>
 

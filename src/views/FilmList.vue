@@ -3,6 +3,7 @@
     <HeaderMenu></HeaderMenu>
     <Findbox></Findbox>
     <SelectCard></SelectCard>
+    <FilmLists></FilmLists>
   </div>
 </template>
 
@@ -10,6 +11,7 @@
   import HeaderMenu from '../components/HeaderMenu';
   import Findbox from '../components/Findbox';
   import SelectCard from '../components/SelectCard';
+  import FilmLists from '../components/FilmLists';
 
   export default {
     name: 'FilmList',
@@ -17,6 +19,7 @@
       HeaderMenu,
       Findbox,
       SelectCard,
+      FilmLists,
     }
   };
 </script>

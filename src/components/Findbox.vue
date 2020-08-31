@@ -1,5 +1,5 @@
 <template xmlns:el-col="http://www.w3.org/1999/html">
-  <div>
+  <div class="main">
     <el-row>
       <el-col :span="4"><div style="height: 20px"></div></el-col>
       <el-col :span="16">
@@ -39,5 +39,8 @@
 
   .el-select {
     width: 130px;
+  }
+  .main{
+    margin-top: 20px;
   }
 </style>

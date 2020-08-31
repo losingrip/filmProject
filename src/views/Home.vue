@@ -4,7 +4,7 @@
       <!--    顶部导航栏-->
       <HeaderMenu></HeaderMenu>
     </div>
-    <div id="main">
+    <div>
       <!--    轮播图-->
       <Carousel></Carousel>
       <!--    中间的广告标题-->
