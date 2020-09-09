@@ -17,10 +17,12 @@ const routes = [
   },
   {
     path: '/firstview',
+    name: 'firstview',
     component: () => import('../views/firstview.vue'),
   },
   {
     path: '/FilmList',
+    name: 'FilmList',
     component: () => import('../views/FilmList.vue')
   }
 ];

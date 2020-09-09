@@ -8,7 +8,7 @@
         <el-row :gutter="20">
           <el-col :span="6">
             <div class="film-mian">
-              <img src="../assets/img/film/小丑.jpg">
+              <img src="../assets/img/film/小丑.jpg" alt="小丑">
               <div class="film-mian-contenr">
                 <div>
                   <el-rate v-model="value" disabled show-score text-color="#ff9900"
@@ -20,7 +20,7 @@
           </el-col>
           <el-col :span="6">
             <div class="film-mian">
-              <img src="../assets/img/film/时空恋人.jpg">
+              <img src="../assets/img/film/时空恋人.jpg" alt="时空恋人">
               <div class="film-mian-contenr">
                 <div>
                   <el-rate v-model="value" disabled show-score text-color="#ff9900"
@@ -32,7 +32,7 @@
           </el-col>
           <el-col :span="6">
             <div class="film-mian">
-              <img src="../assets/img/film/你的名字.jpg">
+              <img src="../assets/img/film/你的名字.jpg" alt="你的名字">
               <div class="film-mian-contenr">
                 <div>
                   <el-rate v-model="value" disabled show-score text-color="#ff9900"
@@ -44,7 +44,7 @@
           </el-col>
           <el-col :span="6">
             <div class="film-mian">
-              <img src="../assets/img/film/小偷家族.jpg">
+              <img src="../assets/img/film/小偷家族.jpg" alt="小偷家族">
               <div class="film-mian-contenr">
                 <div>
                   <el-rate v-model="value" disabled show-score text-color="#ff9900"
